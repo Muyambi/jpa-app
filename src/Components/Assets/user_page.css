@@ -1,0 +1,59 @@
+.userPage{
+    display: flex;
+    flex-direction: column;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:start;
+    border: 1px solid #ffff;
+    border-radius: 3rem;   
+    max-width: 50%;
+    max-height: 70%;
+    
+   
+}
+label{
+   margin: 1rem auto;
+}
+label input{
+   
+    margin-left: 15px;
+    border-color: none none #e6dede none ;
+    border-bottom-color: #e6dede;
+    
+
+
+
+}
+label input, button{
+    
+    background: transparent;
+    outline: none;
+    border-radius: 3rem;
+    color: #e6dede;
+    text-align: center;
+    
+}
+
+button{
+    padding: 6px;
+    border: 1px solid #ffff;
+    
+}
+button:hover{
+    cursor: pointer;
+    color: #f2a5f4;
+}
+
+.users_page{
+    padding-left: 1rem;
+}
+table{
+    margin: 1rem;
+}
+tr,td{
+    padding: 20rem;
+}

@@ -1,0 +1,44 @@
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.input_class{
+    margin:1rem 2px;
+}
+.formControl, .form-control{
+        width: 100%;
+        border-radius: 8px;
+    }
+button{
+    border: 1px solid #1f0058;
+    outline: 0;
+    border-radius: 3px;
+    background: transparent;
+    padding:1rem 1rem;
+}
+button:hover{
+    color: #ffffff;
+    border-top: 0;
+    background-color: #1f0058;
+}
+.display{
+    width: 100%;
+    display: block;
+}
+h2 {
+    margin:0;
+}
+input,select{
+    
+    background: transparent;
+    outline: none;
+    border-radius: 2px;
+    color: #1f0058;
+    text-align: center;
+    border-bottom: 0.4px solid #1f0058;
+}
+input:hover{
+    border: none ;
+    border-bottom: 1px solid #1f0058;;
+}

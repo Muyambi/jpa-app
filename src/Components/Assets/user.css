@@ -1,0 +1,49 @@
+
+.user_table{
+    width: 80%;
+    margin: 1rem 5px 8px 5rem;
+}
+.nav_bar{
+   width: 10%;
+}
+
+.user_container{
+    width: 100%;
+    display: flex;
+}
+table{
+    margin-right: -12rem;
+}
+.buttons_users{
+    display: flex;
+}
+.add_btn{
+    border: 1px solid var(--background-color);
+    outline: 0;
+    border-radius: 1rem;
+    background: transparent;
+    padding:1rem 1rem;
+    margin-bottom: 1rem;
+}
+.add_btn:hover{
+    color: #ffffff;
+    border-top: 0;
+    background-color: var(--background-color);
+}
+.btn_view{
+    background: var(--light);
+    color: var(--font-color);
+}
+.btn_edit{
+    background: var(--background-color);
+    color: var(--light);
+    
+    
+}
+.btn_delete{
+    border: 1px solid var(--background-color);
+    outline: 0;
+    background: transparent;
+   
+    
+}

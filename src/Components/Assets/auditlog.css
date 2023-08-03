@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+   height: 100%;
+   margin-top: 1rem;
+}
+.containers{
+    width: 80%;
+}
+.nav_bar{
+    width: 20%;
+}
